@@ -16,7 +16,7 @@ AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
  
 // Create a feed object that allows us to send data to
 AdafruitIO_Feed *temperatureFeed = io.feed("temperature"); // This temperature is the feed name u have set in Adafruit site.
-AdafruitIO_Feed *humidityFeed = io.feed("humidity"); //This temperature is the feed name u have set in Adafruit site.
+AdafruitIO_Feed *humidityFeed = io.feed("humidity"); //This humidity is the feed name u have set in Adafruit site.
 
 DHT dht(DHTPIN, DHTTYPE);
  
