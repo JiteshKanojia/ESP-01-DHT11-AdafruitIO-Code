@@ -44,7 +44,7 @@ void loop()
   
   io.run();
  
-  // Send 10 to our Workshop Temperature Feed
+  
   temperatureFeed->save(dht.readTemperature()); // Read temperature and send to feed.
   humidityFeed->save(dht.readHumidity()); // Read Humidity and send to feed
  
